@@ -1,4 +1,5 @@
 import React = require('react');
+import Over from './Over';
 import TotalScore from './TotalScore';
 
 export default function Cricket() {
@@ -94,6 +95,7 @@ export default function Cricket() {
       <TotalScore />
       <p>{val}</p>
       <button onClick={handleClick}>Play</button>
+      <Over/>
     </div>
   );
 }
